@@ -1,4 +1,3 @@
-### Github profile @torjc01 
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=torjc01&theme=apprentice&show_icons=true&count_private=true)
 
