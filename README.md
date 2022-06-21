@@ -11,7 +11,7 @@ Here are some ideas to get you started:
 - 🔭 I’m currently working on ... opensource communities building and documenting. 
 - 🌱 I’m currently learning ... python, TinyML, microelectronics, praying, Latin. 
 - 👯 I’m looking to collaborate on ... financial dApps, blockchain applications, IoT devices and networks. 
-- 🤔 I’m looking for help with ...
+- 🤔 I’m looking for help with ... patience.
 - 💬 Ask me about ... cryptography, Java, Blockchains, Raspberry Pi, Arduino, IoT...
 - 📫 How to reach me: ... juliozohar@protonmail.ch; www.kryptogarten.ca; julio.cesartorres@mcn.gouv.qc.ca
 - ⚡ Fun fact: ... haha, gotta ask me. 
