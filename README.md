@@ -3,6 +3,13 @@
 **torjc01/torjc01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
+# Julio Cesar Torres 
+
+## Centre Québecois d'Excellence - Gouvernement du Québec
+### Ville de Québec, Canada
+
+<p>&nbsp;</p>
+
 - 🔭 I’m currently working on ... opensource communities building and documenting. 
 - 🌱 I’m currently learning ... python, TinyML, microelectronics, praying, Latin. 
 - 👯 I’m looking to collaborate on ... financial dApps, blockchain applications, IoT devices and networks. 
