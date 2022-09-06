@@ -26,12 +26,6 @@ https://webauthn.guide 
 https://developers.yubico.com/WebAuthn/WebAuthn_Walk-Through.html - Hands on de webAuthn de Yubico
 
 
-*Luc*  
-
-https://luc.computer/p/web3-auth/  
-https://luc.show/web3-auth  
-https://www.youtube.com/watch?v=gcsunutwMxU  
-https://github.com/lucemans/web3-auth-demo  
 
 
 https://caniuse.com/?search=webauthn  
@@ -51,20 +45,25 @@ https://devpost.com/software/hotel-self-check-in-using-verifiable-credentials
 
 ## Ethereum 
 
-Ethereum Dapps
+*Ethereum Dapps*
 
-How to Build an Ethereum Transaction App with React and Solidity
-https://hackernoon.com/build-your-own-ethereum-transaction-app-with-react-and-solidity-part-1
+How to Build an Ethereum Transaction App with React and Solidity  
+https://hackernoon.com/build-your-own-ethereum-transaction-app-with-react-and-solidity-part-1  
 https://hackernoon.com/how-to-build-an-ethereum-transaction-app-with-react-and-solidity-part-2
 
 
-Ethereum Dapp Crash Course: Make an ERC20 token faucet + Frontend
+Ethereum Dapp Crash Course: Make an ERC20 token faucet + Frontend  
 https://dev.to/richardmelko/ethereum-dapp-crash-course-make-an-erc20-token-faucet-frontend-2m43
 
+*Luc*  
 
-## Deployment
+https://luc.computer/p/web3-auth/  
+https://luc.show/web3-auth  
+https://www.youtube.com/watch?v=gcsunutwMxU  
+https://github.com/lucemans/web3-auth-demo  
 
-React and AWS Deploy
+
+## React and AWS Deploy
 
 Deploy de react apps
 https://create-react-app.dev/docs/deployment/
@@ -74,12 +73,12 @@ https://github.com/swaminator/create-react-app-auth-amplify
 
 
 
-GitHub Actions CI/CD
+## GitHub Actions CI/CD
 
-GitHub Actions Workflows different Environments
+GitHub Actions Workflows different Environments  
 https://medium.com/@albertorojasm95/starter-github-actions-workflows-for-kubernetes-77ed41071ec5
 
-Deploying with GitHub Actions
+Deploying with GitHub Actions  
 https://docs.github.com/en/actions/deployment/about-deployments/deploying-with-github-actions 
 
 
