@@ -5,7 +5,6 @@
 
 # Julio Cesar Torres 
 
-## Centre Québecois d'Excellence - Gouvernement du Québec
 ### Ville de Québec, Canada
 
 <p>&nbsp;</p>
