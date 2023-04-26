@@ -13,8 +13,8 @@
 - 🌱 I’m currently learning ... python, TinyML, microelectronics, analog electronics, 6502 assembly, praying, Latin. 
 - 👯 I’m looking to collaborate on ... financial dApps, blockchain applications, IoT devices and networks. 
 - 🤔 I’m looking for help with ... patience.
-- 💬 Ask me about ... cryptography, Java, Blockchains, Raspberry Pi, Arduino, IoT...
-- 📫 How to reach me: ... juliozohar@gmail.com; www.kryptogarten.ca; julio.cesartorres@mcn.gouv.qc.ca
+- 💬 Ask me about ... cryptography, Digital Certification, Java, Blockchains, Raspberry Pi, Arduino, IoT...
+- 📫 How to reach me: ... juliozohar@gmail.com; https://www.kryptogarten.ca ; https://wwww.shortnsweet.link/ ; julio.cesartorres@mcn.gouv.qc.ca
 - ⚡ Fun fact: ... haha, gotta ask me. 
 
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=torjc01&repo=RaspberryPi&theme=apprentice&show_owner=true)](https://github.com/torjc01/RaspberryPi)
