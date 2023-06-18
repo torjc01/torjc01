@@ -5,7 +5,7 @@
 
 # Julio Cesar Torres 
 
-### Ville de Québec, Canada
+### Québec City, Canada
 
 <p>&nbsp;</p>
 
