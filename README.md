@@ -9,7 +9,7 @@
 
 <p>&nbsp;</p>
 
-- 🔭 I’m currently working on ... opensource communities building and documenting; digital identity proof of concept experimentation. 
+- 🔭 I’m currently working on ... opensource communities building and documenting; Verifiable Credentials; digital identity proof of concept experimentation. 
 - 🌱 I’m currently learning ... python, TinyML, microelectronics, analog electronics, 6502 assembly, praying, Latin. 
 - 👯 I’m looking to collaborate on ... financial dApps, blockchain applications, IoT devices and networks. 
 - 🤔 I’m looking for help with ... patience.
