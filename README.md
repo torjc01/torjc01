@@ -10,7 +10,7 @@
 <p>&nbsp;</p>
 
 - 🔭 I’m currently working on ... opensource communities building and documenting; Verifiable Credentials; digital identity proof of concept experimentation, mDL - mobile Driver's License. 
-- 🌱 I’m currently learning ... FPGA, Digital Electronics, microelectronics, analog electronics, 6502 assembly, TinyML, praying, Latin. 
+- 🌱 I’m currently learning ... FPGA, Digital Electronics, microelectronics, analog electronics, 6502 assembly, TinyML, cybersecurity, pentesting, praying, Latin. 
 - 👯 I’m looking to collaborate on ... financial dApps, blockchain applications, IoT devices and networks. 
 - 🤔 I’m looking for help with ... patience.
 - 💬 Ask me about ... cryptography, Digital Certification, Java, Blockchains, Raspberry Pi, Arduino, IoT...
