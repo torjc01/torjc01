@@ -1,0 +1,101 @@
+#!/bin/bash 
+# =====================================================================================
+# Criação do template do script manage
+# Este template permite a rapida adaptação a diferentes projetos desta ferramenta de 
+# administração de sistemas. Altere as descrições e as opções, inclua as funções 
+# próprias ao seu sistema e dê instruções de utilização aos usuários no README.md da 
+# raiz do seu projeto.
+#
+# Copyright (c) 2023 Julio Cesar Torres <juliozohar@gmail.com> <github.com/torjc01>
+# Data: 2023/07/18 
+# Projeto: https://www.github.com/torjc01/torjc01
+# SPDX-License-Identifier: MIT
+# License-Filename: LICENSES/MIT.txt
+# =====================================================================================
+
+set -e 
+
+echo "Écrire ici le nom du systeme a gerer. "
+
+SCRIPT_HOME="$( cd "$( dirname "$0" )" && pwd )"
+echo "[DEBUG] SCRIPT_HOME " $SCRIPT_HOME
+
+# =============================================================================
+#  usage()
+# =============================================================================
+usage () {
+  cat <<-EOF
+
+    Donnez une description de ce que la commande fait et comment elle fonctionne. 
+    Spécifiez les options et décrivez ce que vous faites avec chaque commande.  
+
+    Utilisation: $0 [commande] [options]
+
+    Commandes:
+
+    start-client
+        - Default command if no other command is specified.
+
+    [commande] [options]
+        - Toute commande et option qui peut être executée par le shell du container.
+          Par example, ./manage toLower EXPRESSION , executera la fonction toLower() et 
+          mettra toutes les lettres du mot à minuscule. 
+
+    help
+        - Montre cette documentation. 
+
+EOF
+exit 1
+}
+
+# =============================================================================
+#  Functions: 
+# =============================================================================
+
+
+# Commande principale du script. Si aucune option est passée, cette commande est exécutée par default.
+# ${@} est une façon d'acceder à tous les parametres de la ligne de commande.
+function start-client(){
+    ./script/start-client.sh ${@}¨
+} 
+
+# Function transformation de string à 
+function toLower(){
+    echo $(echo ${@} | tr '[:upper:]' '[:lower:]')
+}
+
+
+
+# =============================================================================
+# Évaluation des commandes, et exécution selon les options reçues
+# =============================================================================
+COMMAND=${1}
+
+if [ -z "${COMMAND}" ]; then 
+    COMMAND="start-client"
+fi 
+
+case "${COMMAND}" in 
+
+    help)
+        echo "Aide à l'usage"
+        usage
+        ;;
+
+    start-client) 
+        echo "Commande default. Initialise le client"
+        start-client
+        ;;
+
+    *) 
+        escapedCmd=$(echo "${@}" | sed "s~'~\\\'~g" | sed 's~\"~\\"~g' | sed 's~,~\\,~g')
+        eval ${escapedCmd}
+        ;;
+esac
+
+
+echo "[DEBUG] COMMANDE: " ${COMMAND}
+
+# =============================================================================
+#   Fin du script
+# =============================================================================
