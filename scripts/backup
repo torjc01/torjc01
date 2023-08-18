@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# A script to perform incremental backups using rsync
+# Este script vai copiar o conteudo do diretorio home para a maquina
+# de backup ubuntu.
+
+set -o errexit
+set -o nounset
+
+SOURCE_DIR=/home/torjc01
+SERVER=zohar@192.168.18.30
+DEST_DIR=/home/zohar/backup-torjc01
+
+echo "=============================================================="
+echo $(date)
+echo "=============================================================="
+
+echo $SOURCE_DIR
+
+echo "Iniciando transferencia de " $SOURCE_DIR " para " $SERVER:$DEST_DIR 
+
+echo "A transferencia tera o tamanho total de " $(tam $SOURCE_DIR) " menos as exclusoes"
+
+rsync -azvP --delete-excluded --exclude-from='/home/torjc01/local-bin/exclude-files.param' $SOURCE_DIR/ $SERVER:$DEST_DIR
+
+echo "Transferencia finalizada"
+
+echo "***"
+echo "***"
+echo "***"
