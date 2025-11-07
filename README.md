@@ -29,4 +29,3 @@ In using the repos, apply the following standards:
 
 - [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/)
 - [SemVer](https://semver.org/lang/pt-BR/)
-- 
